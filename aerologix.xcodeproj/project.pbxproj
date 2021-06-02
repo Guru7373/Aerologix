@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		771525CA266772E5008FF277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525C9266772E5008FF277 /* AppDelegate.swift */; };
+		771525CC266772E5008FF277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525CB266772E5008FF277 /* SceneDelegate.swift */; };
+		771525CE266772E5008FF277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525CD266772E5008FF277 /* ViewController.swift */; };
+		771525D1266772E5008FF277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771525CF266772E5008FF277 /* Main.storyboard */; };
+		771525D4266772E5008FF277 /* aerologix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 771525D2266772E5008FF277 /* aerologix.xcdatamodeld */; };
+		771525D6266772EA008FF277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771525D5266772EA008FF277 /* Assets.xcassets */; };
+		771525D9266772EA008FF277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771525D7266772EA008FF277 /* LaunchScreen.storyboard */; };
+		771525E4266772EB008FF277 /* aerologixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525E3266772EA008FF277 /* aerologixTests.swift */; };
+		771525EF266772EB008FF277 /* aerologixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525EE266772EB008FF277 /* aerologixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		771525E0266772EA008FF277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 771525BE266772E4008FF277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771525C5266772E4008FF277;
+			remoteInfo = aerologix;
+		};
+		771525EB266772EB008FF277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 771525BE266772E4008FF277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771525C5266772E4008FF277;
+			remoteInfo = aerologix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		771525C6266772E5008FF277 /* aerologix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aerologix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		771525C9266772E5008FF277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		771525CB266772E5008FF277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		771525CD266772E5008FF277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		771525D0266772E5008FF277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		771525D3266772E5008FF277 /* aerologix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aerologix.xcdatamodel; sourceTree = "<group>"; };
+		771525D5266772EA008FF277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		771525D8266772EA008FF277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		771525DA266772EA008FF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771525DF266772EA008FF277 /* aerologixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aerologixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		771525E3266772EA008FF277 /* aerologixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aerologixTests.swift; sourceTree = "<group>"; };
+		771525E5266772EB008FF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771525EA266772EB008FF277 /* aerologixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aerologixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		771525EE266772EB008FF277 /* aerologixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aerologixUITests.swift; sourceTree = "<group>"; };
+		771525F0266772EB008FF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		771525C3266772E4008FF277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771525DC266772EA008FF277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771525E7266772EB008FF277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		771525BD266772E4008FF277 = {
+			isa = PBXGroup;
+			children = (
+				771525C8266772E5008FF277 /* aerologix */,
+				771525E2266772EA008FF277 /* aerologixTests */,
+				771525ED266772EB008FF277 /* aerologixUITests */,
+				771525C7266772E5008FF277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		771525C7266772E5008FF277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				771525C6266772E5008FF277 /* aerologix.app */,
+				771525DF266772EA008FF277 /* aerologixTests.xctest */,
+				771525EA266772EB008FF277 /* aerologixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		771525C8266772E5008FF277 /* aerologix */ = {
+			isa = PBXGroup;
+			children = (
+				771525C9266772E5008FF277 /* AppDelegate.swift */,
+				771525CB266772E5008FF277 /* SceneDelegate.swift */,
+				771525CD266772E5008FF277 /* ViewController.swift */,
+				771525CF266772E5008FF277 /* Main.storyboard */,
+				771525D5266772EA008FF277 /* Assets.xcassets */,
+				771525D7266772EA008FF277 /* LaunchScreen.storyboard */,
+				771525DA266772EA008FF277 /* Info.plist */,
+				771525D2266772E5008FF277 /* aerologix.xcdatamodeld */,
+			);
+			path = aerologix;
+			sourceTree = "<group>";
+		};
+		771525E2266772EA008FF277 /* aerologixTests */ = {
+			isa = PBXGroup;
+			children = (
+				771525E3266772EA008FF277 /* aerologixTests.swift */,
+				771525E5266772EB008FF277 /* Info.plist */,
+			);
+			path = aerologixTests;
+			sourceTree = "<group>";
+		};
+		771525ED266772EB008FF277 /* aerologixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				771525EE266772EB008FF277 /* aerologixUITests.swift */,
+				771525F0266772EB008FF277 /* Info.plist */,
+			);
+			path = aerologixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		771525C5266772E4008FF277 /* aerologix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771525F3266772EB008FF277 /* Build configuration list for PBXNativeTarget "aerologix" */;
+			buildPhases = (
+				771525C2266772E4008FF277 /* Sources */,
+				771525C3266772E4008FF277 /* Frameworks */,
+				771525C4266772E4008FF277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aerologix;
+			productName = aerologix;
+			productReference = 771525C6266772E5008FF277 /* aerologix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		771525DE266772EA008FF277 /* aerologixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771525F6266772EB008FF277 /* Build configuration list for PBXNativeTarget "aerologixTests" */;
+			buildPhases = (
+				771525DB266772EA008FF277 /* Sources */,
+				771525DC266772EA008FF277 /* Frameworks */,
+				771525DD266772EA008FF277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				771525E1266772EA008FF277 /* PBXTargetDependency */,
+			);
+			name = aerologixTests;
+			productName = aerologixTests;
+			productReference = 771525DF266772EA008FF277 /* aerologixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		771525E9266772EB008FF277 /* aerologixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771525F9266772EB008FF277 /* Build configuration list for PBXNativeTarget "aerologixUITests" */;
+			buildPhases = (
+				771525E6266772EB008FF277 /* Sources */,
+				771525E7266772EB008FF277 /* Frameworks */,
+				771525E8266772EB008FF277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				771525EC266772EB008FF277 /* PBXTargetDependency */,
+			);
+			name = aerologixUITests;
+			productName = aerologixUITests;
+			productReference = 771525EA266772EB008FF277 /* aerologixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		771525BE266772E4008FF277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					771525C5266772E4008FF277 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					771525DE266772EA008FF277 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 771525C5266772E4008FF277;
+					};
+					771525E9266772EB008FF277 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 771525C5266772E4008FF277;
+					};
+				};
+			};
+			buildConfigurationList = 771525C1266772E4008FF277 /* Build configuration list for PBXProject "aerologix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 771525BD266772E4008FF277;
+			productRefGroup = 771525C7266772E5008FF277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				771525C5266772E4008FF277 /* aerologix */,
+				771525DE266772EA008FF277 /* aerologixTests */,
+				771525E9266772EB008FF277 /* aerologixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		771525C4266772E4008FF277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771525D9266772EA008FF277 /* LaunchScreen.storyboard in Resources */,
+				771525D6266772EA008FF277 /* Assets.xcassets in Resources */,
+				771525D1266772E5008FF277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771525DD266772EA008FF277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771525E8266772EB008FF277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		771525C2266772E4008FF277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771525D4266772E5008FF277 /* aerologix.xcdatamodeld in Sources */,
+				771525CE266772E5008FF277 /* ViewController.swift in Sources */,
+				771525CA266772E5008FF277 /* AppDelegate.swift in Sources */,
+				771525CC266772E5008FF277 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771525DB266772EA008FF277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771525E4266772EB008FF277 /* aerologixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771525E6266772EB008FF277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771525EF266772EB008FF277 /* aerologixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		771525E1266772EA008FF277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 771525C5266772E4008FF277 /* aerologix */;
+			targetProxy = 771525E0266772EA008FF277 /* PBXContainerItemProxy */;
+		};
+		771525EC266772EB008FF277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 771525C5266772E4008FF277 /* aerologix */;
+			targetProxy = 771525EB266772EB008FF277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		771525CF266772E5008FF277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				771525D0266772E5008FF277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		771525D7266772EA008FF277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				771525D8266772EA008FF277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		771525F1266772EB008FF277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		771525F2266772EB008FF277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		771525F4266772EB008FF277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = aerologix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aero.aerologix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		771525F5266772EB008FF277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = aerologix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aero.aerologix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		771525F7266772EB008FF277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = aerologixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aero.aerologixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aerologix.app/aerologix";
+			};
+			name = Debug;
+		};
+		771525F8266772EB008FF277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = aerologixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aero.aerologixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aerologix.app/aerologix";
+			};
+			name = Release;
+		};
+		771525FA266772EB008FF277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = aerologixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aero.aerologixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aerologix;
+			};
+			name = Debug;
+		};
+		771525FB266772EB008FF277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = aerologixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aero.aerologixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aerologix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		771525C1266772E4008FF277 /* Build configuration list for PBXProject "aerologix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771525F1266772EB008FF277 /* Debug */,
+				771525F2266772EB008FF277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771525F3266772EB008FF277 /* Build configuration list for PBXNativeTarget "aerologix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771525F4266772EB008FF277 /* Debug */,
+				771525F5266772EB008FF277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771525F6266772EB008FF277 /* Build configuration list for PBXNativeTarget "aerologixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771525F7266772EB008FF277 /* Debug */,
+				771525F8266772EB008FF277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771525F9266772EB008FF277 /* Build configuration list for PBXNativeTarget "aerologixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771525FA266772EB008FF277 /* Debug */,
+				771525FB266772EB008FF277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		771525D2266772E5008FF277 /* aerologix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				771525D3266772E5008FF277 /* aerologix.xcdatamodel */,
+			);
+			currentVersion = 771525D3266772E5008FF277 /* aerologix.xcdatamodel */;
+			path = aerologix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 771525BE266772E4008FF277 /* Project object */;
+}
