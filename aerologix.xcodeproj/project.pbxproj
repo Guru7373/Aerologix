@@ -11,11 +11,20 @@
 		771525CC266772E5008FF277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525CB266772E5008FF277 /* SceneDelegate.swift */; };
 		771525CE266772E5008FF277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525CD266772E5008FF277 /* ViewController.swift */; };
 		771525D1266772E5008FF277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771525CF266772E5008FF277 /* Main.storyboard */; };
-		771525D4266772E5008FF277 /* aerologix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 771525D2266772E5008FF277 /* aerologix.xcdatamodeld */; };
 		771525D6266772EA008FF277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771525D5266772EA008FF277 /* Assets.xcassets */; };
 		771525D9266772EA008FF277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771525D7266772EA008FF277 /* LaunchScreen.storyboard */; };
 		771525E4266772EB008FF277 /* aerologixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525E3266772EA008FF277 /* aerologixTests.swift */; };
 		771525EF266772EB008FF277 /* aerologixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771525EE266772EB008FF277 /* aerologixUITests.swift */; };
+		77152604266792CF008FF277 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77152603266792CF008FF277 /* UserProfileView.swift */; };
+		771526062667A194008FF277 /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771526052667A194008FF277 /* RestAPIManager.swift */; };
+		771526082667A2E5008FF277 /* ProfileDetailModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771526072667A2E5008FF277 /* ProfileDetailModal.swift */; };
+		7715260A2667A499008FF277 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771526092667A499008FF277 /* Reachability.swift */; };
+		7715260C2667A78D008FF277 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7715260B2667A78D008FF277 /* CoreDataHelper.swift */; };
+		771526122667B38A008FF277 /* ImageLoaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771526112667B38A008FF277 /* ImageLoaderHelper.swift */; };
+		771526192667BCAB008FF277 /* aerologix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 771526172667BCAB008FF277 /* aerologix.xcdatamodeld */; };
+		7715261B2667BCC3008FF277 /* demoresponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 7715261A2667BCC3008FF277 /* demoresponse.json */; };
+		772236D72667E64100621549 /* ToastHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772236D62667E64100621549 /* ToastHelper.swift */; };
+		772236DB2667F0A800621549 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772236DA2667F0A700621549 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +50,6 @@
 		771525CB266772E5008FF277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		771525CD266772E5008FF277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		771525D0266772E5008FF277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		771525D3266772E5008FF277 /* aerologix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aerologix.xcdatamodel; sourceTree = "<group>"; };
 		771525D5266772EA008FF277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771525D8266772EA008FF277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771525DA266772EA008FF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,18 @@
 		771525EA266772EB008FF277 /* aerologixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aerologixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771525EE266772EB008FF277 /* aerologixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aerologixUITests.swift; sourceTree = "<group>"; };
 		771525F0266772EB008FF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77152603266792CF008FF277 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		771526052667A194008FF277 /* RestAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
+		771526072667A2E5008FF277 /* ProfileDetailModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailModal.swift; sourceTree = "<group>"; };
+		771526092667A499008FF277 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7715260B2667A78D008FF277 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		771526112667B38A008FF277 /* ImageLoaderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderHelper.swift; sourceTree = "<group>"; };
+		771526182667BCAB008FF277 /* aerologix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aerologix.xcdatamodel; sourceTree = "<group>"; };
+		7715261A2667BCC3008FF277 /* demoresponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demoresponse.json; sourceTree = "<group>"; };
+		772236D62667E64100621549 /* ToastHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastHelper.swift; sourceTree = "<group>"; };
+		772236DA2667F0A700621549 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77C62F3B2667C1C800519BCF /* ProfileCoreDataObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileCoreDataObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		77C62F3C2667C1C800519BCF /* ProfileCoreDataObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileCoreDataObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +123,17 @@
 			children = (
 				771525C9266772E5008FF277 /* AppDelegate.swift */,
 				771525CB266772E5008FF277 /* SceneDelegate.swift */,
-				771525CD266772E5008FF277 /* ViewController.swift */,
+				772236D92667F09300621549 /* Constants */,
+				771525FC266791DF008FF277 /* Modal */,
+				771525FD266791E8008FF277 /* View */,
+				771525FF26679207008FF277 /* Controller */,
+				7715260126679214008FF277 /* Resources */,
+				771526022667921C008FF277 /* Helpers */,
 				771525CF266772E5008FF277 /* Main.storyboard */,
 				771525D5266772EA008FF277 /* Assets.xcassets */,
 				771525D7266772EA008FF277 /* LaunchScreen.storyboard */,
 				771525DA266772EA008FF277 /* Info.plist */,
-				771525D2266772E5008FF277 /* aerologix.xcdatamodeld */,
+				771526172667BCAB008FF277 /* aerologix.xcdatamodeld */,
 			);
 			path = aerologix;
 			sourceTree = "<group>";
@@ -129,6 +154,60 @@
 				771525F0266772EB008FF277 /* Info.plist */,
 			);
 			path = aerologixUITests;
+			sourceTree = "<group>";
+		};
+		771525FC266791DF008FF277 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				771526052667A194008FF277 /* RestAPIManager.swift */,
+				771526072667A2E5008FF277 /* ProfileDetailModal.swift */,
+				77C62F3B2667C1C800519BCF /* ProfileCoreDataObject+CoreDataClass.swift */,
+				77C62F3C2667C1C800519BCF /* ProfileCoreDataObject+CoreDataProperties.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		771525FD266791E8008FF277 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77152603266792CF008FF277 /* UserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		771525FF26679207008FF277 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				771525CD266772E5008FF277 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7715260126679214008FF277 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7715261A2667BCC3008FF277 /* demoresponse.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		771526022667921C008FF277 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				771526092667A499008FF277 /* Reachability.swift */,
+				7715260B2667A78D008FF277 /* CoreDataHelper.swift */,
+				771526112667B38A008FF277 /* ImageLoaderHelper.swift */,
+				772236D62667E64100621549 /* ToastHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		772236D92667F09300621549 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				772236DA2667F0A700621549 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				771525D9266772EA008FF277 /* LaunchScreen.storyboard in Resources */,
+				7715261B2667BCC3008FF277 /* demoresponse.json in Resources */,
 				771525D6266772EA008FF277 /* Assets.xcassets in Resources */,
 				771525D1266772E5008FF277 /* Main.storyboard in Resources */,
 			);
@@ -261,10 +341,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				771525D4266772E5008FF277 /* aerologix.xcdatamodeld in Sources */,
+				77152604266792CF008FF277 /* UserProfileView.swift in Sources */,
+				771526122667B38A008FF277 /* ImageLoaderHelper.swift in Sources */,
+				771526082667A2E5008FF277 /* ProfileDetailModal.swift in Sources */,
 				771525CE266772E5008FF277 /* ViewController.swift in Sources */,
 				771525CA266772E5008FF277 /* AppDelegate.swift in Sources */,
+				771526062667A194008FF277 /* RestAPIManager.swift in Sources */,
+				771526192667BCAB008FF277 /* aerologix.xcdatamodeld in Sources */,
+				7715260C2667A78D008FF277 /* CoreDataHelper.swift in Sources */,
+				7715260A2667A499008FF277 /* Reachability.swift in Sources */,
 				771525CC266772E5008FF277 /* SceneDelegate.swift in Sources */,
+				772236D72667E64100621549 /* ToastHelper.swift in Sources */,
+				772236DB2667F0A800621549 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +530,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = aerologix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +549,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = aerologix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,12 +683,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		771525D2266772E5008FF277 /* aerologix.xcdatamodeld */ = {
+		771526172667BCAB008FF277 /* aerologix.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				771525D3266772E5008FF277 /* aerologix.xcdatamodel */,
+				771526182667BCAB008FF277 /* aerologix.xcdatamodel */,
 			);
-			currentVersion = 771525D3266772E5008FF277 /* aerologix.xcdatamodel */;
+			currentVersion = 771526182667BCAB008FF277 /* aerologix.xcdatamodel */;
 			path = aerologix.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
